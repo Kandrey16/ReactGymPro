@@ -1,0 +1,19 @@
+table {
+    thead {
+        tr {
+            th {
+
+            }
+        }
+    }
+    tbody {
+        tr {
+            td {
+                &:hover {
+                    transition: 0.4s;
+                    background-color: rgb(211, 211, 211);
+                }
+            }
+        }
+    }
+}
